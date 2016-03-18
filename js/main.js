@@ -5,9 +5,10 @@ grains.forEach(function (glob) {
 // Why do the variables need to go in this loop for it to work?
 
   var $li = $('<li>');
+  
   var $img = $('<img>');
-  var $p = $('<p>');
   var $h2 = $('<h2>');
+  var $p = $('<p>');
 
   $ul.append($li);
   $li.append($img, $h2, $p);
